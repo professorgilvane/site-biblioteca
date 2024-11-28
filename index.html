@@ -11,16 +11,10 @@ body {
     background-color: rgba(255,255,255,0.7);
     background-blend-mode: lighten; 
     background-size: cover;
-   background-repeat: no-repeat;      
+    background-repeat: no-repeat;      
     background-position: center;
-background-position: inherit;    }
-
-    background-image {
-    opacity: 0.3;
-    position: absolute;
+    background-position: inherit;
     background-attachment: fixed;
-    
-   
 }
 body nav a {
     text-decoration: none;
@@ -28,8 +22,10 @@ body nav a {
     margin: 2%;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: -2px 2px 4px blanchedalmond;
  }
 nav {
+    height: 3vh;
     margin-top: 0%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -169,6 +165,22 @@ section#botoes a {
     justify-content: center;
     align-items: center;
 }
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    height: 5vh;
+    display: grid;
+    align-content: center;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px blanchedalmond;
+    border-radius: 10px 10px 0px 0px;
+}
+footer strong {
+    font-variant: small-caps;
+    
+}
     </style>
 </head>
 <body>
@@ -180,13 +192,12 @@ section#botoes a {
 </background-image>-->
 
 </div>
-
     <nav>
         <a href="index.html">Home</a>
         <a href="index.html">Editar</a>
         <a href="#">Relatório</a>
         <a href="#">SAIR</a>
-        </nav>
+    </nav>
         
 <h1>Gerenciador de Biblioteca</h1>
 <h3>Cadastrar</h3>
@@ -224,6 +235,9 @@ section#botoes a {
         <a href='usuarios.html' target="_self">Usuários</a>
     </button>
 </section>
+<footer>
+    <p>Desenvolvido por <strong>Gilvane Caires!</strong></p>
+</footer>
 </body>
 </html>
 

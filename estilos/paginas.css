@@ -1,4 +1,14 @@
 @charset "UTF-8";
+body {
+    background-image: url('../imagens/logo-biblioteca.jpg');
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten; 
+    background-size: cover;
+    background-repeat: no-repeat;      
+    background-position: center;
+    background-position: inherit;
+    background-attachment: fixed;
+}
 body h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -9,6 +19,7 @@ body nav a {
     margin: 2%;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: -2px 2px 4px blanchedalmond;
  }
 nav {
     margin-top: 0%;
