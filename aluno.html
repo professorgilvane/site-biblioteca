@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico">
     <link rel="stylesheet" href="estilos/paginas.css">
-
-    <title>Aluno</title>
+        <title>Aluno</title>
 
 </head>
 <body>
@@ -16,7 +15,24 @@
         <a href="#">Relatório</a>
         <a href="#">SAIR</a>
     </nav>
-    <h1>cadastrar aluno</h1>
+    <h1>Cadastrar aluno</h1>
+   
+    <form action="#" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados do aluno</legend>
+            <p>
+                <label for="inome">Nome do Aluno</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="40" required>
+            </p>
+            <p> <label for="iturma">Turma/Ano</label>
+                <input type="email" name="text" id="iturma" required placeholder="?Reg?202?" required> </p> 
+            <p>
+                <label for="iturno">Turno</label>
+                <input type="text" name="turno" id="iturno" required placeholder="Vespertino ou Matutino" >
+        </fieldset> <!-- "\(" abre parênteses +  "d{2}" 2 dígitos + ")\" fecha parênteses. Estudar sobre expressões regulares RegGex (começa com "^" e termina com "$")-->
+        <p><input id="val" type="submit" value="Enviar">
+        <input id="val" type="reset" value="Limpar"></p>
+    </form>
     <footer>
         <p>Desenvolvido por <strong>Gilvane Caires!</strong></p>
     </footer>

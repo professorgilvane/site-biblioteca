@@ -4,12 +4,10 @@ body {
     background-color: rgba(255,255,255,0.7);
     background-blend-mode: lighten; 
     background-size: cover;
-    background-repeat: no-repeat;      
-    background-position: center;
-    background-position: inherit;
+    background-repeat: repeat;      
+    background-position: top;
     background-attachment: fixed;
-    background-size: 95%;
-    background-position: center;
+    background-size: 25%;
 }
 body h1 {
     text-align: center;
@@ -30,6 +28,21 @@ nav {
     padding-left: 1%;
     background-color: black;
     border-radius: 0px 0px 10px 10px;
+}
+section#espaço{
+    height: 83vh;
+}
+input#val {
+    display: inline-block;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.527);
+}
+input{
+    display: block;
+    border-radius: 0px 5px;
+}
+fieldset{
+    border-radius: 0px 20px;
+    box-shadow: -5px 8px 8px rgba(0, 0, 0, 0.527);
 }
 footer{
     background-color: black;
