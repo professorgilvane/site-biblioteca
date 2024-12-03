@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+    margin-top: 0%;
     background-image: url('../imagens/logo-biblioteca.jpg');
     background-color: rgba(255,255,255,0.7);
     background-blend-mode: lighten; 
@@ -8,6 +9,8 @@ body {
     background-position: top;
     background-attachment: fixed;
     background-size: 25%;
+    height: 87vw;
+    
 }
 body h1 {
     text-align: center;
@@ -30,7 +33,7 @@ nav {
     border-radius: 0px 0px 10px 10px;
 }
 section#espaço{
-    height: 82vh;
+    height: 92%;
 }
 input#val {
     display: inline-block;
