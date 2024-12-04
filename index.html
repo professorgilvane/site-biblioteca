@@ -6,21 +6,26 @@
     <title>Biblioteca Cleide Rocha</title>
     <link rel="shortcut icon" href="imagens/favicon.ico">
     <style>
-body {
-    margin-top: 0%;
-    background-image: url('imagens/logo-biblioteca.jpg');
-    background-color: rgba(255,255,255,0.7);
-    background-blend-mode: lighten; 
-    background-size: contain;
-    background-repeat: no-repeat;      
+*{
+    box-sizing: border-box;
+}
+.bg {
+    min-height: 100vh;
+    justify-content: initial;
+    align-self: center;
+    position: relative;
+    display: flex;
+}
+.bg::before{
+    content: '';
+    background-image: url("imagens/logo-biblioteca1.jpg");
+    background-repeat: no-repeat;
     background-position: center;
-    background-position: inherit;
-    background-attachment: fixed;
-    background-size: 95%;
-    background-position: center;
+    background-size: cover;
+    position: absolute;
+    
 }
 body nav a {
-    
     text-decoration: none;
     color: white;
     margin: 2%;
@@ -38,11 +43,11 @@ nav {
     border-radius: 0px 0px 10px 10px;
 }
 body h1 {
-    
-    paddmargin: 2% 0% 0% 0%;
+    display: grid;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
     text-align: center;
-    margin: 6% 0% 0% 0%;
+    margin: 2% 0% 0% 0%;
 }
 body h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -65,8 +70,16 @@ body h3 {
   box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.767);
   }
 section#botoes{
-    height: 72vh;
-}
+       
+   height: 72vh;
+    
+    background-blend-mode: lighten; 
+    background-repeat: no-repeat;      
+    background-attachment: fixed;
+    background-size: 45%;
+    background-position: bottom left; 
+    
+} 
 section#botoes a {
     text-decoration: none;
     color: #2b2502;
@@ -193,21 +206,13 @@ footer strong {
     </style>
 </head>
 <body>
-    
- <div id="logo">
-    
-<!--<background-image>
-    <img src="imagens/logo-biblioteca.png" alt="logo"> 
-</background-image>-->
-
-</div>
+    <div class="bg">
     <nav>
         <a href="index.html">Home</a>
         <a href="index.html">Editar</a>
         <a href="#">Relatório</a>
         <a href="#">SAIR</a>
     </nav>
-        
 <h1>Gerenciador de Biblioteca</h1>
 <h3>Cadastrar</h3>
 
@@ -225,9 +230,11 @@ footer strong {
     <button class="button button4">
         <a href='editora.html' target="_self">Editora</a>
     </button>
+
     <button class="button button5">
         <a href="funcionarios.html" target="_self">Funcionário</a>
     </button>
+
     <button class="button button6">
         <a href='livro.html' target="_self">Livro</a>
     </button>
@@ -244,6 +251,7 @@ footer strong {
         <a href='usuarios.html' target="_self">Usuários</a>
     </button>
 </section>
+</div>
 <footer>
     <p>Desenvolvido por <strong>Gilvane Caires!</strong></p>
 </footer>
