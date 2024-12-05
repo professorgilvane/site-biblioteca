@@ -1,14 +1,18 @@
 @charset "UTF-8";
 body {
-    margin-top: 0%;
-    background-image: url('../imagens/logo-biblioteca.jpg');
+    background-image: url("../imagens/logo-biblioteca1.jpg"),
+        url("../imagens/logo-biblioteca2.jpg"), url("../imagens/logo-biblioteca3.png"), url("../imagens/logo-biblioteca4.png");
+        background-position: top left, top right, bottom left, bottom right;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-blend-mode: lighten;
+        background-size: 45%;
+        background-color: rgba(240, 248, 255, 0.75);
+     margin-top: 0%;
+    
     background-color: rgba(255,255,255,0.7);
     background-blend-mode: lighten; 
-    background-size: cover;
-    background-repeat: repeat;      
-    background-position: top;
+    
     background-attachment: fixed;
-    background-size: 25%;
     height: 87vw;
     
 }
