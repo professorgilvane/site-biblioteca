@@ -1,9 +1,9 @@
 @charset "UTF-8";
 body {
     background-image: url("../imagens/logo-biblioteca1.jpg"),
-        url("../imagens/logo-biblioteca2.jpg"), url("../imagens/logo-biblioteca3.png"), url("../imagens/logo-biblioteca4.png");
-        background-position: top left, top right, bottom left, bottom right;
-        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        url("../imagens/logo-biblioteca2.jpg"), url("../imagens/logo-biblioteca3.png"), url("../imagens/logo-biblioteca4.png"), url("../imagens/logo-biblioteca5.png");
+        background-position: top left, top right, bottom left, bottom right, center center;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-blend-mode: lighten;
         background-size: 45%;
         background-color: rgba(240, 248, 255, 0.75);
@@ -39,14 +39,7 @@ nav {
 section#espaço{
     height: 92%;
 }
-input#val {
-    display: inline-block;
-    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.527);
-}
-input{
-    display: block;
-    border-radius: 0px 5px;
-}
+
 fieldset{
     border-radius: 0px 20px;
     box-shadow: -5px 8px 8px rgba(0, 0, 0, 0.527);
