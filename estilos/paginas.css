@@ -5,7 +5,7 @@ body {
         background-position: top left, top right, bottom left, bottom right, center center;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-blend-mode: lighten;
-        background-size: 25%;
+        background-size: 23.5%;
         background-color: rgba(240, 248, 255, 0.75);
      margin-top: 0%;
     
@@ -13,7 +13,7 @@ body {
     background-blend-mode: lighten; 
     
     background-attachment: fixed;
-    height: 87vw;
+    height: 80vw;
     
 }
 body h1 {
